@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{756E55BA-35D2-4281-BE7E-05E23444136E}"
 	ProjectSection(SolutionItems) = preProject
@@ -65,6 +65,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nlog", "nlog", "{61C025A5-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d60.Cirqus.NLog", "d60.Cirqus.NLog\d60.Cirqus.NLog.csproj", "{F122F403-DFCF-4ACB-9833-5D93EF357A06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d60.Cirqus.AzureDocumentDb", "d60.Cirqus.AzureDocumentDb\d60.Cirqus.AzureDocumentDb.csproj", "{5412467C-FFEC-448A-A9F1-D4196278CB1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d60.Cirqus.AzureDocumentDb.Tests", "d60.Cirqus.AzureDocumentDb.Tests\d60.Cirqus.AzureDocumentDb.Tests.csproj", "{AD064974-A657-4CD3-B5B3-DBBD6F9B0421}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +111,14 @@ Global
 		{F122F403-DFCF-4ACB-9833-5D93EF357A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F122F403-DFCF-4ACB-9833-5D93EF357A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F122F403-DFCF-4ACB-9833-5D93EF357A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5412467C-FFEC-448A-A9F1-D4196278CB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5412467C-FFEC-448A-A9F1-D4196278CB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5412467C-FFEC-448A-A9F1-D4196278CB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5412467C-FFEC-448A-A9F1-D4196278CB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD064974-A657-4CD3-B5B3-DBBD6F9B0421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD064974-A657-4CD3-B5B3-DBBD6F9B0421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD064974-A657-4CD3-B5B3-DBBD6F9B0421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD064974-A657-4CD3-B5B3-DBBD6F9B0421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,5 +139,7 @@ Global
 		{7624F47B-B53F-40C6-B211-19288E814F86} = {B7EFFA50-A51B-4D7D-A264-07151A10F9D8}
 		{61C025A5-1616-423F-B877-A3E017472C76} = {AAD28E32-1CB5-46C8-B3B2-40BDC275EA63}
 		{F122F403-DFCF-4ACB-9833-5D93EF357A06} = {61C025A5-1616-423F-B877-A3E017472C76}
+		{5412467C-FFEC-448A-A9F1-D4196278CB1E} = {8F2EED60-249C-46BD-B5D4-C610567D1FFB}
+		{AD064974-A657-4CD3-B5B3-DBBD6F9B0421} = {8F2EED60-249C-46BD-B5D4-C610567D1FFB}
 	EndGlobalSection
 EndGlobal
